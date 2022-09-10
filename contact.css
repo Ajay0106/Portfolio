@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+.sidebar{
+    position: absolute;
+    background: linear-gradient(135deg, rgb(27, 89, 137)0%, rgb(80, 183, 247)100%);
+    font-family: 'raleway', sans-serif;
+    height: 100vh;
+    transition: .4s;
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+    text-decoration: overline;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: yellow; */
+    width: 87vw;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+
+}
+.button{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sn{
+    font-size: 10px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    border-width: thin;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.contactform{
+    padding:  0 34px;
+    padding-top: 86px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin: 0 88px;
+
+
+}
+.contactform h1{
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contactform form{
+    padding-top: 81px;
+    margin: 0 40px;
+}
+.contactform form  div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.name-t{
+    font-size: 21px;
+    padding-left: 48px;
+    font-family: system-ui;
+    color: white;
+    background: linear-gradient(45deg, #004576d1, transparent);
+}
+.dev-img{
+    margin: 50px;
+    height: 112px;
+    width: 112px;
+    border-radius: 50%;
+    
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#name{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#Qurey{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left: 155px;
+    padding-left: 11%;
+    cursor: pointer;
+    
+   
+    transition: .4s;
+}
+.ham{
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-100%, 0);
+    position: absolute;
+    transition: .4s;
+}
+@media (max-width: 700px){
+    *{
+
+    }
+    .devPic{
+        display: none;
+    }
+    .devInfo{
+        padding-left: 10%;
+    }
+    .contactform{
+        margin: 8px;
+    }
+}

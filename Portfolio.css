@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+.sidebar{
+    position: absolute;
+    background: linear-gradient(135deg, rgb(27, 89, 137)0%, rgb(80, 183, 247)100%);
+    font-family: 'raleway', sans-serif;
+    height: -webkit-fill-available;
+    transition: .4s;
+
+}
+.name-t{
+    font-size: 21px;
+    padding-left: 48px;
+    font-family: system-ui;
+    color: white;
+    background: linear-gradient(45deg, #004576d1, transparent);
+}
+.dev-img{
+    margin: 50px;
+    height: 112px;
+    width: 112px;
+    border-radius: 50%;
+    
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+    text-decoration: overline;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: yellow; */
+    width: 87vw;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+    /* background-color: rgb(127, 23, 23); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.button{
+    margin-top: 34px;
+    font-size: 16px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background: linear-gradient(135deg, rgb(48, 81, 209)0%, rgb(80, 183, 247)100%);;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sn{
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    border-width: thin;
+}
+.btn:hover{
+    color: dodgerblue;
+    background: white;
+}
+.devPic img{
+    height: 58vh;
+}
+.contactform{
+    padding:  0 34px;
+    padding-top: 130px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+.contactform h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contactform form  div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#name{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#Qurey{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.blogitem{
+    margin-left: 53px;
+    margin-right: 97px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 37px;
+    text-align: center;
+    
+}
+.h2{
+    padding: 10px;
+}
+.p{
+    font-family: 'raleway', sans-serif;
+    padding: 10px;
+}
+.img{
+    width: 30%;
+    height: 20%;
+    padding-left: 50%;
+}
+.MyInfo h1{
+    margin: 5%;
+
+}
+.MyInfo p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5%;
+}
+.MyInfo h2{
+    margin: 5%;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10 px;
+}
+.bar{
+    background-color: #bfc3c6;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.barhover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25) 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(2, 84, 147)0%, rgb(43, 157, 227)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+}
+.javascript{
+    width: 50%;
+    animation: javascript 3s;
+}
+.python{
+    width: 70%;
+    animation: python 3s;
+}
+.c{
+    width: 65%;
+    animation: c 3s;
+}
+.c2{
+    width: 65%;
+    animation: c2 3s;
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left: 155px;
+    padding-left: 11%;
+    cursor: pointer;
+    
+   
+    transition: .4s;
+}
+.ham{
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-100%, 0);
+    position: absolute;
+    transition: .4s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes c2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@media (max-width: 700px){
+    *{
+
+    }
+    .devPic{
+        display: none;
+    }
+    .devInfo{
+        padding-left: 10%;
+        font-size: 10px;
+    }
+    .intro{
+        margin: 8px;
+    }
+    .buttons{
+        font-size: 10px;
+    }
+}
+

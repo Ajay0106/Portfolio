@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+.sidebar{
+    position: absolute;
+    background: linear-gradient(135deg, rgb(27, 89, 137)0%, rgb(80, 183, 247)100%);
+    font-family: 'raleway', sans-serif;
+    height: 100vh;
+    transition: .4s;
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+    text-decoration: overline;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: yellow; */
+    width: 87vw;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+
+}
+.name-t{
+    font-size: 21px;
+    padding-left: 48px;
+    font-family: system-ui;
+    color: white;
+    background: linear-gradient(45deg, #004576d1, transparent);
+}
+.dev-img{
+    margin: 50px;
+    height: 112px;
+    width: 112px;
+    border-radius: 50%;
+    
+}
+/* .h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 37px;
+    text-align: center;
+    
+}
+.h2{
+    padding: 10px;
+}
+.p{
+    font-family: 'raleway', sans-serif;
+    padding: 10px;
+} */
+/* .h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 5%;
+
+}
+.p{
+    font-family:'raleway', sans-serif;
+    margin: 5%;
+}
+.h2{
+    font-family:'raleway', sans-serif;
+    margin: 5%;
+} */
+.MyInfo h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    text-decoration-line: underline;
+    margin: 7%;
+
+}
+.MyInfo p{
+    font-family:'raleway', sans-serif;
+    font-size: 22px;
+    margin: 5%;
+}
+.MyInfo h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 5%;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10 px;
+}
+.bar{
+    background-color: #bfc3c6;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.barhover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25) 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(2, 84, 147)0%, rgb(80, 183, 247)100%);
+    border-radius: 10px;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+}
+.javascript{
+    width: 50%;
+    animation: javascript 3s;
+}
+.python{
+    width: 70%;
+    animation: python 3s;
+}
+.c{
+    width: 65%;
+    animation: c 3s;
+}
+.c2{
+    width: 65%;
+    animation: c2 3s;
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left: 155px;
+    padding-left: 11%;
+    cursor: pointer;
+    
+   
+    transition: .4s;
+}
+.ham{
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-100%, 0);
+    position: absolute;
+    transition: .4s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes c2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@media (max-width: 700px){
+    *{
+
+    }
+    .devPic{
+        display: none;
+    }
+    .devInfo{
+        padding-left: 10%;
+    }
+    .intro{
+        margin: 8px;
+    }
+}
+
+
